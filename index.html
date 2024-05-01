@@ -1,62 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IONEWORKS</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-    .container {
-      max-width: 800px;
-      margin: 50px auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      color: #333;
-      text-align: center;
-    }
-    p {
-      color: #666;
-      text-align: center;
-      line-height: 1.6;
-    }
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
-    .button:hover {
-      background-color: #0056b3;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IONEWORKS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            background-image: url("/web/back.png");
+            background-size: cover; 
+            background-position: center; 
+            height:180px;
+            vertical-align:middle;
+            padding-top:100px;
+        }        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        section {
+            background-color: #15181E;
+            margin-bottom: 40px;
+            padding: 40px;
+            border-radius: 8px;
+            border:1px solid #2a2a2a;
+            color:#ffffff;
+        }
+        h2 {
+            color: #c2c2c2;
+        }
+        p {
+            color: #fff;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #ffffff;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        li {
+            padding:5px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to IONEWORKS</h1>
-    <p>We provide innovative IT systems to help your business thrive.</p>
-    <p>Our products include cutting-edge solutions for:</p>
-    <ul>
-      <li>Network Security</li>
-      <li>Data Management</li>
-      <li>Cloud Computing</li>
-      <li>Software Development</li>
-    </ul>
-    <p>Explore our products and take your business to the next level!</p>
-    <div style="text-align: center;">
-      one@ioneworks.com
-    </div>
-  </div>
+
+<header>
+    <img src="/web/IONEWORKS_W.svg" height="70" />
+    <h4>Micro Service Management Platform</h4>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2 style='margin-top:0px;'>IONEWORKS is,</h2>
+        <p style='font-size:14pt'>" Integrated system development platform for rapidly building MSA architecture systems in cloud environments. "</p>
+    </section>
+
+    <section>
+        <h2 style='margin-top:0px;'>Features of the product</h2>
+        <ul>
+            <li>Easy management platform</li>
+            <li>Fast performance</li>
+            <li>Strong security</li>
+            <li>Flexible scalability</li>   
+            <li>Short development time</li>
+            <li>Multi-language and database support</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 style='margin-top:0px;'>Functions of the product</h2>
+        <ul>
+            <li>Web base IDE</li>
+            <li>APM (Application Performance Management)</li>
+            <li>Api Management</li>
+            <li>Security Monitor</li>
+            <li>Transaction Tracking</li>
+            <li>Scheduler</li>            
+            <li>Application Topology</li>
+            <li>CI/CD</li>
+            <li>Database Tool</li>
+            <li>ERD Tool</li>
+            <li>SSO/OAuth</li>
+            <li>Issue(Task/Case/Kanban) Management</li>
+            <li>Document Management</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <h2 style='color:#000000'>CONTACT US</h2>
+    email : one@ioneworks.com<br ><br ><br >
+    <span style='font-size:8pt'>© 2006 IONEWORKS All rights reserved.</span>
+</footer>
+
 </body>
 </html>
